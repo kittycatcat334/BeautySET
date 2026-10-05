@@ -1,0 +1,6 @@
+{
+  "name": "ÉPURE Cosmetics",
+  "description": "Artisanal moisturizer sets, niche perfume sets, and mini makeup essentials curated for both men and women. Order directly via WhatsApp or Instagram.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
