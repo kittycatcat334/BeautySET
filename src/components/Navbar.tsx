@@ -34,7 +34,7 @@ export const Navbar: React.FC<NavbarProps> = ({
         {/* Zone 1: Single text element wordmark */}
         <a
           href="#"
-          className="text-2xl sm:text-3xl font-serif tracking-[0.2em] font-medium text-[#1C1A17] hover:opacity-85 transition-opacity"
+          className="text-2xl sm:text-3xl font-serif tracking-[0.22em] font-medium text-[#1C1A17] hover:opacity-90 transition-all glow-3d-champagne"
         >
           {config.brandName}
         </a>

@@ -19,3 +19,82 @@
 .tabular-nums {
   font-variant-numeric: tabular-nums;
 }
+
+/* 3D Typography & Luminous Aura Styles */
+.glow-3d-champagne {
+  text-shadow:
+    0 -1px 1px rgba(255, 255, 255, 0.95),
+    0 1px 0 #cfbda2,
+    0 2px 0 #b39f82,
+    0 3px 2px rgba(60, 45, 30, 0.25),
+    0 5px 12px rgba(180, 140, 80, 0.35),
+    0 0 25px rgba(225, 190, 130, 0.55),
+    0 0 50px rgba(240, 215, 160, 0.35);
+}
+
+.glow-3d-amber {
+  text-shadow:
+    0 -1px 1px rgba(255, 250, 240, 0.9),
+    0 1px 0 #c28854,
+    0 2px 0 #9c6738,
+    0 3px 2px rgba(50, 25, 10, 0.3),
+    0 6px 14px rgba(190, 110, 40, 0.45),
+    0 0 30px rgba(235, 140, 60, 0.5),
+    0 0 60px rgba(245, 175, 95, 0.3);
+}
+
+.glow-3d-pearl {
+  text-shadow:
+    0 -1px 1px rgba(255, 255, 255, 1),
+    0 1px 0 #ded7cd,
+    0 2px 0 #c4bcaf,
+    0 3px 2px rgba(80, 80, 80, 0.2),
+    0 5px 14px rgba(160, 155, 145, 0.35),
+    0 0 28px rgba(230, 230, 240, 0.65),
+    0 0 55px rgba(215, 215, 230, 0.4);
+}
+
+/* Shimmering Metallic Gradient Text */
+.text-shimmer-gold {
+  background: linear-gradient(
+    115deg,
+    #1c1a17 0%,
+    #4a3c2a 20%,
+    #bfa068 40%,
+    #fff4d8 50%,
+    #bfa068 60%,
+    #4a3c2a 80%,
+    #1c1a17 100%
+  );
+  background-size: 250% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer-sweep 8s ease-in-out infinite;
+}
+
+@keyframes shimmer-sweep {
+  0%, 100% {
+    background-position: 0% center;
+  }
+  50% {
+    background-position: 100% center;
+  }
+}
+
+@keyframes float-gentle {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+.animate-float-slow {
+  animation: float-gentle 6s ease-in-out infinite;
+}
+
+/* Perspective container for 3D elements */
+.perspective-1000 {
+  perspective: 1000px;
+}

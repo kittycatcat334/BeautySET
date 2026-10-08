@@ -9,8 +9,8 @@ export const BrandValues: React.FC = () => {
           <span className="text-xs uppercase tracking-[0.2em] text-[#736B60] font-medium block">
             Our Formulation Philosophy
           </span>
-          <h2 className="font-serif text-3xl sm:text-4xl text-[#1C1A17] mt-1.5 [text-wrap:balance]">
-            Simplicity is the ultimate expression of luxury.
+          <h2 className="font-serif text-3xl sm:text-4xl text-[#1C1A17] mt-1.5 [text-wrap:balance] glow-3d-champagne">
+            Simplicity is the <span className="text-shimmer-gold inline-block">ultimate expression of luxury.</span>
           </h2>
         </div>
 

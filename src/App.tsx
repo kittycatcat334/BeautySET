@@ -253,8 +253,8 @@ export default function App() {
               <span aria-hidden="true">·</span>
               <span>Curated Routines</span>
             </div>
-            <h2 className="font-serif text-3xl sm:text-4xl text-[#1C1A17] leading-tight [text-wrap:balance]">
-              Artisanal Sets for Him, Her, & Shared Rituals
+            <h2 className="font-serif text-3xl sm:text-4xl text-[#1C1A17] leading-tight [text-wrap:balance] glow-3d-champagne">
+              Artisanal Sets for <span className="text-shimmer-gold inline-block">Him, Her, & Shared Rituals</span>
             </h2>
           </div>
 
@@ -316,7 +316,7 @@ export default function App() {
               <Sparkles className="w-3.5 h-3.5" />
               <span>Direct Concierge Ordering</span>
             </div>
-            <h3 className="font-serif text-2xl sm:text-3xl text-[#1C1A17] [text-wrap:balance]">
+            <h3 className="font-serif text-2xl sm:text-3xl text-[#1C1A17] [text-wrap:balance] glow-3d-champagne">
               Prefer to order via a conversation?
             </h3>
             <p className="text-xs sm:text-sm text-[#5A554E] leading-relaxed max-w-xl mx-auto font-light">
