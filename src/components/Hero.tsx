@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { MessageCircle, ArrowDown, Sparkles, SunMedium, Flame, MoonStar } from 'lucide-react';
 import { BrandConfig } from '../types';
+import heroSetsImg from '../assets/images/hero_cosmetics_sets_1791218824109.jpg';
 
 interface HeroProps {
   onScrollToCatalog: () => void;
@@ -280,7 +281,7 @@ export const Hero: React.FC<HeroProps> = ({ onScrollToCatalog, config }) => {
           <div className="lg:col-span-6">
             <div className="relative aspect-[16/10] sm:aspect-[16/11] rounded-sm overflow-hidden bg-[#EAE6DD] border border-[#E0DACE] shadow-sm">
               <img
-                src="/src/assets/images/hero_cosmetics_sets_1791218824109.jpg"
+                src={heroSetsImg}
                 alt="ÉPURE luxury cosmetic sets, perfume flacons, and moisturizer packaging"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover object-center transform hover:scale-[1.02] transition-transform duration-700 ease-out"

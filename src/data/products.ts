@@ -1,4 +1,9 @@
 import { Product, BrandConfig } from '../types';
+import moisturizerDuoImg from '../assets/images/set_moisturizer_duo_1791218843669.jpg';
+import perfumeDiscoveryImg from '../assets/images/set_perfume_discovery_1791218859574.jpg';
+import miniMakeupImg from '../assets/images/set_mini_makeup_1791218873452.jpg';
+import mensGroomingImg from '../assets/images/set_mens_grooming_1791218886746.jpg';
+import heroSetsImg from '../assets/images/hero_cosmetics_sets_1791218824109.jpg';
 
 export const PRODUCTS: Product[] = [
   {
@@ -11,7 +16,7 @@ export const PRODUCTS: Product[] = [
     price: 68,
     tagline: 'Deep cellular hydration with biomimetic ceramides & squalane.',
     description: 'A 3-step restorative system designed to replenish dry, stressed skin and reinforce the protective moisture barrier against daily environmental factors.',
-    image: '/src/assets/images/set_moisturizer_duo_1791218843669.jpg',
+    image: moisturizerDuoImg,
     badge: 'Bestseller',
     itemsIncluded: [
       { name: 'Pure Hydration Barrier Crème', size: '50ml', description: 'Rich whipped cream with 5 ceramides and squalane' },
@@ -36,7 +41,7 @@ export const PRODUCTS: Product[] = [
     price: 88,
     tagline: 'Three artisanal extraits blended for intimate sillage.',
     description: 'A masterfully calibrated trio of 15ml flacons created in Grasse, France. Designed to be worn individually or layered to create your personal signature olfactory profile.',
-    image: '/src/assets/images/set_perfume_discovery_1791218859574.jpg',
+    image: perfumeDiscoveryImg,
     badge: 'Limited Edition',
     itemsIncluded: [
       { name: 'No. 01 Santal Blanc', size: '15ml Extrait', description: 'Creamy Australian sandalwood, iris, and cardamom' },
@@ -61,7 +66,7 @@ export const PRODUCTS: Product[] = [
     price: 48,
     tagline: 'Your complete 5-minute glow routine in compact, travel-friendly sizes.',
     description: 'Effortless, clean makeup formulations that melt into skin. Hydrating tint, dew blush, and peptide lip treatment sized for your daily handbag or travel pouch.',
-    image: '/src/assets/images/set_mini_makeup_1791218873452.jpg',
+    image: miniMakeupImg,
     badge: 'Trending',
     itemsIncluded: [
       { name: 'Mini Dew Blush Balm', size: '4.5g', description: 'Multi-use cream tint for cheeks and lips in Soft Rose' },
@@ -86,7 +91,7 @@ export const PRODUCTS: Product[] = [
     price: 54,
     tagline: 'Precision hydration and razor-burn soothing formulated for men.',
     description: 'Streamlined 2-piece daily system engineered to balance oil, soothe post-shave irritation, and keep skin fresh without shine or stickiness.',
-    image: '/src/assets/images/set_mens_grooming_1791218886746.jpg',
+    image: mensGroomingImg,
     badge: 'Popular for Men',
     itemsIncluded: [
       { name: 'Bamboo Charcoal Detox Gel Cleanser', size: '100ml', description: 'Unclogs pores without stripping essential moisture' },
@@ -110,7 +115,7 @@ export const PRODUCTS: Product[] = [
     price: 76,
     tagline: 'Dual character fragrances for boardroom confidence and evening allure.',
     description: 'Two complementary 30ml eau de parfum bottles crafted for the discerning modern man. One crisp and invigorating for daytime, one rich and smoldering for night.',
-    image: '/src/assets/images/set_perfume_discovery_1791218859574.jpg',
+    image: perfumeDiscoveryImg,
     itemsIncluded: [
       { name: 'Day Edition: Vetiver & Crisp Bergamot', size: '30ml', description: 'Clean Italian bergamot, Haitian vetiver, and white musk' },
       { name: 'Night Edition: Smoked Cedar & Dark Leather', size: '30ml', description: 'Rich Atlas cedarwood, tobacco blossom, and black pepper' },
@@ -133,11 +138,11 @@ export const PRODUCTS: Product[] = [
     price: 44,
     tagline: 'Bare-skin perfecting trio for filtered, photo-ready skin.',
     description: 'An inclusive complexion set that blurs pores, softens uneven tone, and controls shine. Formulated for all skin types and tones.',
-    image: '/src/assets/images/set_mini_makeup_1791218873452.jpg',
+    image: miniMakeupImg,
     itemsIncluded: [
       { name: 'Blurring Primer Mist', size: '30ml', description: 'Silica and witch hazel micro-mist for instant pore smoothing' },
       { name: 'Translucent Mineral Silk Powder', size: '5g', description: 'Talc-free ultra-fine setting powder with mini puff' },
-      { name: 'Botanical Lip Conditioner', size: '5ml', description: 'Clear organic beeswax and shea nourishment' },
+      { name: 'Botanical Lip Conditioner', size: '5ml', description: 'Clean organic beeswax and shea nourishment' },
     ],
     keyBenefits: [
       'Talc-free, paraben-free, non-comedogenic',
@@ -157,7 +162,7 @@ export const PRODUCTS: Product[] = [
     price: 135,
     tagline: 'The ultimate luxury experience uniting skincare, fragrance, and lip care.',
     description: 'Presented in a custom linen keepsake box with embossed gold lettering. Contains our award-winning moisturizer, full travel perfume flacon, and nourishing lip balm.',
-    image: '/src/assets/images/hero_cosmetics_sets_1791218824109.jpg',
+    image: heroSetsImg,
     badge: 'Curated Gift Box',
     itemsIncluded: [
       { name: 'Pure Hydration Barrier Crème', size: '50ml Full Size', description: 'Deep restorative ceramide treatment' },
@@ -183,7 +188,7 @@ export const PRODUCTS: Product[] = [
     price: 64,
     tagline: 'Damask rose essence and 100% plant-derived squalane.',
     description: 'Delivers an ethereal glass-skin glow without feeling heavy. Quenches dehydrated skin and locks in moisture with precious Bulgarian rose oil.',
-    image: '/src/assets/images/set_moisturizer_duo_1791218843669.jpg',
+    image: moisturizerDuoImg,
     itemsIncluded: [
       { name: 'Damask Rose Water Pre-Serum', size: '60ml', description: 'Antioxidant hydrating toner' },
       { name: 'Illuminating Squalane Glow Crème', size: '50ml', description: 'Light-reflecting daily moisture cream' },
